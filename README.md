@@ -61,7 +61,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
    4.  Stacked column chart
    5.  Guage
    6.  Pie chart
-
+![dashboard_mockup](assets/images/data_proffesionals_mockup.png)
 
 
 
