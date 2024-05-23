@@ -72,7 +72,7 @@ Power BI    | Visualizing the data via interactive dashboards |
 Mockup AI   | Designing the wireframe/mockup of the dashboard |
 
 # Development                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                            
 ### Pseudocode
    *  What's the general approach in creating this solution from start to finish?
 
@@ -89,16 +89,36 @@ Additionally, ensure that you identify the specific columns required for the pro
    *  What are your initial observations with this dataset? What's caught your attention so far?
    1. Alot of columns are unnecesary for the project and can be deleted
 
-   2.  The "Which Title Best Fits Your Current Role?" column contains numerous similar options, making it less clear. To simplify this column and reduce the number of options, we will standardize and condense the categories. Specifically, we will split the column where there 
-      are parentheses (indicating "Other" options). By doing this, we can create separate columns and subsequently delete the unnecessary one.
+   2. The "Which Title Best Fits Your Current Role?" column contains numerous similar options, making it less clear. 
    3. The "Favorite Programming Language?" column contains many similar entries under the "Other" options, particularly for SQL, which appears in various forms and some other options. To address this, we will split the column at the colon using the colon delimiter. This will 
       allow us to create separate columns and then delete the unnecessary one.
    4. The "Current Yearly Salary" column needs to be standardized, as it currently contains salary ranges in text format. We require these salaries to be in numerical values and represented by a single number rather than a range. To achieve this, we will split the salary 
       ranges into two separate columns. Then, we will create an additional column that calculates the average of these two numbers by summing them and dividing by two. This will provide a more usable, rounded figure instead of the given ranges.
       To split the columns, we will use the 'Digit to Non-Digit' option. We will then delete the unnecessary column containing only the letter 'k'. For the other column, we will replace 'k', '-' with nothing, and '+' with '225'. Finally, we will create a new column for the 
       average salary and remove the intermediate columns used for this calculation.
-   5. The "What Industry do you work in?" column
-   6. The "Which Country do you live in?" column also has so many Countries repeated and writen in different forms under the "Other" option
+   5. The "What Industry do you work in?" column  column also has so many Countries repeated and writen in different forms under the "Other" option, so we will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can 
+      create separate columns and subsequently delete the unnecessary ones.
+   6. The "Which Country do you live in?" column also has so many Countries repeated and writen in different forms under the "Other" option, so we will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can create 
+      separate columns and subsequently delete the unnecessary ones.
+## Data cleaning
+   * What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+The cleaned data should meet the following criteria and constraints:
+
+   *  Only relevant columns should be retained.
+   *  All data types should be appropriate for the contents of each column.
+   *  No column should contain null values, indicating complete data for all records.
+     
+What steps are needed to clean and shape the data into the desired format?
+   *  Remove unnecessary columns by deleting the ones we don't need
+   *  Simplify some columns and reduce the number of options by condesing categories
+   *  Delete some characters and letters that are not needed
+Below are some steps that were taken in order to clean the data;
+
+#### "Which Title Best Fits Your Current Role?" column
+   * To simplify this column and reduce the number of options, we will standardize and condense the categories. Specifically, we will split the column where there 
+      are parentheses (indicating "Other" options). By doing this, we can create separate columns and subsequently delete the unnecessary one.
    
       
 
@@ -111,11 +131,7 @@ Additionally, ensure that you identify the specific columns required for the pro
 
 
 
-
- 1. 
-     
-      3. 
-      4.                                                                      
+                                                                     
 
 Write the documentation + commentary
 Publish the data to GitHub Pages
