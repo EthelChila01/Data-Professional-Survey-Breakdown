@@ -144,7 +144,7 @@ Below are some steps that were taken in order work on the issues mentioned [here
 #### "Which Country do you live in?" column
    *  We will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can create 
       separate columns and subsequently delete the unnecessary ones.
-      ![plitting_the_country_column_image](assets/images/split_countries.png)
+      ![splitting_the_country_column_image](assets/images/split_countries.png)
 
 # DAX measures
 
