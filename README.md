@@ -88,14 +88,11 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 Additionally, ensure that you identify the specific columns required for the project. 
    *  What are your initial observations with this dataset? What's caught your attention so far?
    1. Alot of columns are unnecesary for the project and can be deleted
-
    2. The "Which Title Best Fits Your Current Role?" column contains numerous similar options, making it less clear. 
    3. The "Favorite Programming Language?" column contains many similar entries under the "Other" options, particularly for SQL, which appears in various forms and some other options. 
    4. The "Current Yearly Salary" column needs to be standardized, as it currently contains salary ranges in text format. We require these salaries to be in numerical values and represented by a single number rather than a range. 
-   5. The "What Industry do you work in?" column  column also has so many Countries repeated and writen in different forms under the "Other" option, so we will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can 
-      create separate columns and subsequently delete the unnecessary ones.
-   6. The "Which Country do you live in?" column also has so many Countries repeated and writen in different forms under the "Other" option, so we will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can create 
-      separate columns and subsequently delete the unnecessary ones.
+   5. The "What Industry do you work in?" column also has so many Countries repeated and writen in different forms under the "Other" option. 
+   6. The "Which Country do you live in?" column also has so many Countries repeated and writen in different forms under the "Other" option. 
 ## Data cleaning
    * What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?
 The aim is to refine our dataset to ensure it is structured and ready for analysis.
@@ -123,18 +120,27 @@ Below are some steps that were taken in order work on the issues mentioned [here
       
 #### "Current Yearly Salary" column
    *  To achieve what was mentioned regarding the issues found in this column, we will split the salary ranges into two separate columns.To split the columns, we will use the 'Digit to Non-Digit' option. We will then delete the unnecessary column containing only the letter 
-      'k'. For the other column with "k" and "-", we will replace them with nothing(leave black), and '+' with '225'. Finally, we will create a new column for the 
+      'k'. For the other column with "k" and "-", we will replace them with nothing(leave black), and '+' with '225' for the ones that earn 225 plus. Finally, we will create a new column for the 
       average salary and remove the intermediate columns used for this calculation.. Then, we will create an additional column that calculates the average of these two numbers by summing them and dividing by two. This will 
       provide a more usable, rounded figure instead of the given ranges.
-      a. 
+
+      a.
       ![splitting_the_yearly_salary_column](assets/images/split_the_yearly_salary_1.png)
       b.
       ![replacing_k](assets/images/replace_k_.png)
       c.
       ![replacing_minus](assets/images/replace_minus.png)
+      d.
+      ![replacing_plus_with_225](assets/images/replacing_plus_with_225.png)
       
+#### "What Industry do you work in?" column 
+   *  We will split column where there are parenthesis (indicating "Other" options). By doing this, we can create separate columns and subsequently delete the unnecessary ones.
+      ![plitting_the_industry_column_image](assets/images/split_the_industry_column.png)
+#### "Which Country do you live in?" column
+   *  We will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can create 
+      separate columns and subsequently delete the unnecessary ones.
       
-   
+    
       
 
       
