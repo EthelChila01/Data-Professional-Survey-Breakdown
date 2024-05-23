@@ -63,6 +63,13 @@ Some of the data visuals that may be appropriate in answering our questions incl
    6.  Pie chart
 ![dashboard_mockup](assets/images/data_proffesionals_mockup.png)
 
+# Tools
+Tool        | Purpose                                         |
+----------- | ------------------------------------------------|
+Power query | Cleaning   | 
+Power BI    | Visualizing the data via interactive dashboards |
+Mockup AI   | Designing the wireframe/mockup of the dashboard |
+
 
 
 
