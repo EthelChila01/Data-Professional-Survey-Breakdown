@@ -119,14 +119,18 @@ Below are some steps that were taken in order work on the issues mentioned [here
 #### "Favorite Programming Language?" column
     * To address the issues found in this column, we will split the column at the colon using the colon delimiter. This will 
       allow us to create separate columns and then delete the unnecessary one.
-       ![splitting_the_favorite_language_column](assets/images/split_the_favourite_language_column.png)
+   ![splitting_the_favourite_language_column](assets/images/split_the_favourite_language_column.png)
+      
 #### "Current Yearly Salary" column
    *  To achieve what was mentioned regarding the issues found in this column, we will split the salary ranges into two separate columns.To split the columns, we will use the 'Digit to Non-Digit' option. We will then delete the unnecessary column containing only the letter 
       'k'. For the other column with "k" and "-", we will replace them with nothing(leave black), and '+' with '225'. Finally, we will create a new column for the 
       average salary and remove the intermediate columns used for this calculation.. Then, we will create an additional column that calculates the average of these two numbers by summing them and dividing by two. This will 
       provide a more usable, rounded figure instead of the given ranges.
+      a. 
       ![splitting_the_yearly_salary_column](assets/images/split_the_yearly_salary_1.png)
+      b.
       ![replacing_k](assets/images/replace_k_.png)
+      c.
       ![replacing_minus](assets/images/replace_minus.png)
       
       
