@@ -11,6 +11,11 @@ This project was developed using raw data collected from social meadia following
 - [Data source](#data_source)
 - [Stages](#stages)
 - [Design](#design)
+- [Development](#development)
+  -  [Data exploration notes](data_exploration_notes)
+  - [Data_cleaning](#data_cleaning)
+- [DAX_meausres](#dax_measures)
+- [Visualization](#visualization)
  
 # Objective:
 
@@ -139,6 +144,11 @@ Below are some steps that were taken in order work on the issues mentioned [here
 #### "Which Country do you live in?" column
    *  We will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can create 
       separate columns and subsequently delete the unnecessary ones.
+      ![plitting_the_country_column_image](assets/images/split_countries.png)
+
+# DAX measures
+
+# Visualization
       
     
       
