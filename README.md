@@ -1,4 +1,4 @@
-# Portfolio: Data Professionals Survey
+ # Portfolio: Data Professionals Survey
 
 ## Power BI project
 
@@ -87,22 +87,35 @@ Mockup AI   | Designing the wireframe/mockup of the dashboard |
 This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
 Additionally, ensure that you identify the specific columns required for the project. 
    *  What are your initial observations with this dataset? What's caught your attention so far?
-      1. Alot of columns are unnecesary for the project and can be deleted
-      2. The "Which Title Best Fits Your Current Role" column contains numerous similar options, making it less clear. To simplify this column and reduce the number of options, we will standardize and condense the categories. Specifically, we will split the column where there 
-        are parentheses (indicating "Other" options). By doing this, we can create separate columns and subsequently delete the unnecessary one.
-      3. The "Favorite Programming Language" column contains many similar entries under the "Other" options, particularly for SQL, which appears in various forms and some other options. To address this, we will split the column at the colon using the colon delimiter. This will 
-        allow us to create separate columns and then delete the unnecessary one.
-      4. The "Current Yearly Salary" column has to be worked on too because the salaries included in it are in ranges. We need to have the salaries in numerical values because they are in text and at least just one salary instaed of a ranage. What we will do is break up the 
-         numbers and put them in two seperate columns using th and then create another column that will give us an avearge for those two numbers by adding them then diving by two. This will at least give us a rounded number, making it more usable instead of the ranges given. 
-        To split the columns we will use the 'Digit to Non Digit' option, then delete the unnecessary column with only k,then for the other column replace 'k', '-' and '+'                                                                                                           
-                                                                                                                                                                                      with nothing.
+   1. Alot of columns are unnecesary for the project and can be deleted
+
+   2.  The "Which Title Best Fits Your Current Role?" column contains numerous similar options, making it less clear. To simplify this column and reduce the number of options, we will standardize and condense the categories. Specifically, we will split the column where there 
+      are parentheses (indicating "Other" options). By doing this, we can create separate columns and subsequently delete the unnecessary one.
+   3. The "Favorite Programming Language?" column contains many similar entries under the "Other" options, particularly for SQL, which appears in various forms and some other options. To address this, we will split the column at the colon using the colon delimiter. This will 
+      allow us to create separate columns and then delete the unnecessary one.
+   4. The "Current Yearly Salary" column needs to be standardized, as it currently contains salary ranges in text format. We require these salaries to be in numerical values and represented by a single number rather than a range. To achieve this, we will split the salary 
+      ranges into two separate columns. Then, we will create an additional column that calculates the average of these two numbers by summing them and dividing by two. This will provide a more usable, rounded figure instead of the given ranges.
+      To split the columns, we will use the 'Digit to Non-Digit' option. We will then delete the unnecessary column containing only the letter 'k'. For the other column, we will replace 'k', '-' with nothing, and '+' with '225'. Finally, we will create a new column for the 
+      average salary and remove the intermediate columns used for this calculation.
+   5. The "What Industry do you work in?" column
+   6. The "Which Country do you live in?" column also has so many Countries repeated and writen in different forms under the "Other" option
+   
+      
+
+      
+      
+                                          
+                                                                                                                                                                                      
 
                                                                                                                                                                                                                                                                                                                                    
 
 
 
 
-
+ 1. 
+     
+      3. 
+      4.                                                                      
 
 Write the documentation + commentary
 Publish the data to GitHub Pages
