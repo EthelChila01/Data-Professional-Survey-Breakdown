@@ -2,7 +2,7 @@
 
 ## Power BI project
 
-![power_bi_image](assets/images/powerbi_icon.gif)
+![powerbi_image](assets/images/powerbi_icon.gif.gif)
 
 This project was developed using raw data collected from Twitter following a survey conducted among professionals in the field of data. The data was transformed using Power Query, and visualizations were created and finalized in a dashboard using Power BI
 
