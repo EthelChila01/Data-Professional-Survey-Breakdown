@@ -90,12 +90,8 @@ Additionally, ensure that you identify the specific columns required for the pro
    1. Alot of columns are unnecesary for the project and can be deleted
 
    2. The "Which Title Best Fits Your Current Role?" column contains numerous similar options, making it less clear. 
-   3. The "Favorite Programming Language?" column contains many similar entries under the "Other" options, particularly for SQL, which appears in various forms and some other options. To address this, we will split the column at the colon using the colon delimiter. This will 
-      allow us to create separate columns and then delete the unnecessary one.
-   4. The "Current Yearly Salary" column needs to be standardized, as it currently contains salary ranges in text format. We require these salaries to be in numerical values and represented by a single number rather than a range. To achieve this, we will split the salary 
-      ranges into two separate columns. Then, we will create an additional column that calculates the average of these two numbers by summing them and dividing by two. This will provide a more usable, rounded figure instead of the given ranges.
-      To split the columns, we will use the 'Digit to Non-Digit' option. We will then delete the unnecessary column containing only the letter 'k'. For the other column, we will replace 'k', '-' with nothing, and '+' with '225'. Finally, we will create a new column for the 
-      average salary and remove the intermediate columns used for this calculation.
+   3. The "Favorite Programming Language?" column contains many similar entries under the "Other" options, particularly for SQL, which appears in various forms and some other options. 
+   4. The "Current Yearly Salary" column needs to be standardized, as it currently contains salary ranges in text format. We require these salaries to be in numerical values and represented by a single number rather than a range. 
    5. The "What Industry do you work in?" column  column also has so many Countries repeated and writen in different forms under the "Other" option, so we will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can 
       create separate columns and subsequently delete the unnecessary ones.
    6. The "Which Country do you live in?" column also has so many Countries repeated and writen in different forms under the "Other" option, so we will split column where there are parenthesis (indicating "Other" options). By doing this, we can  By doing this, we can create 
@@ -114,11 +110,26 @@ What steps are needed to clean and shape the data into the desired format?
    *  Remove unnecessary columns by deleting the ones we don't need
    *  Simplify some columns and reduce the number of options by condesing categories
    *  Delete some characters and letters that are not needed
-Below are some steps that were taken in order to clean the data;
+Below are some steps that were taken in order work on the issues mentioned [here](#data_exploration_notes);
 
 #### "Which Title Best Fits Your Current Role?" column
    * To simplify this column and reduce the number of options, we will standardize and condense the categories. Specifically, we will split the column where there 
       are parentheses (indicating "Other" options). By doing this, we can create separate columns and subsequently delete the unnecessary one.
+     ![splitting_the_title_column](assets/images/split_the_title_column.png)
+#### "Favorite Programming Language?" column
+    * To address the issues found in this column, we will split the column at the colon using the colon delimiter. This will 
+      allow us to create separate columns and then delete the unnecessary one.
+       ![splitting_the_favorite_language_column](assets/images/split_the_favourite_language_column.png)
+#### "Current Yearly Salary" column
+   *  To achieve what was mentioned regarding the issues found in this column, we will split the salary ranges into two separate columns.To split the columns, we will use the 'Digit to Non-Digit' option. We will then delete the unnecessary column containing only the letter 
+      'k'. For the other column with "k" and "-", we will replace them with nothing(leave black), and '+' with '225'. Finally, we will create a new column for the 
+      average salary and remove the intermediate columns used for this calculation.. Then, we will create an additional column that calculates the average of these two numbers by summing them and dividing by two. This will 
+      provide a more usable, rounded figure instead of the given ranges.
+      ![splitting_the_yearly_salary_column](assets/images/split_the_yearly_salary_1.png)
+      ![replacing_k](assets/images/replace_k_.png)
+      ![replacing_minus](assets/images/replace_minus.png)
+      
+      
    
       
 
