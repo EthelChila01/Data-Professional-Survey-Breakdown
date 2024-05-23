@@ -20,11 +20,11 @@ The Head of Human Resources wants to understand the demographics and satisfactio
 ### Ideal Solution:
 To create a dashboard that provides comprehensive insights into the survey data of data professionals, including their:
 
-Countries 
-Salaries
-Job titles
-Ages
-Programming languages
+   * Countries 
+   * Salaries
+   * Job titles
+   * Ages
+   * Programming languages
 
 This dashboard will assist the Human Resources team in making informed decisions to improve recruitment processes, tailor professional development programs, and enhance overall employee satisfaction and retention.
 
