@@ -150,10 +150,27 @@ Below are some steps that were taken in order work on the issues mentioned [here
 # Visualization
 ![the_dashboard](assets/images/the_dashboard.gif)
   
+ # Analysis
+ ### Findings
+    * What did we find?
+ For this analysis, we're going to focus on the questions below to get the information we need for the human resource team
+ Here are the key questions we need to answer for our human resource team: 
+   
+   1.  Which countries took part in the survey
+   2.  How many people took part in the survey
+   3.  What are their average salaries respective of their job titles
+   4.  What is the average age of the survey takers
+   5.  What is their most favourite programing language
+   6.  What is the average salary for each gender
+   7.  How happy are they with their salries
+   8.  How happy are they with their Work-life balance (ranked from 0 to 10)?
     
-      
+## 1.  Which countries took part in the survey  
 
-      
+
+
+
+
       
                                           
                                                                                                                                                                                       
