@@ -53,8 +53,8 @@ To understand what it should contain, we need to figure out what questions we ne
    3. What are their average salaries respective of their jobtitles
    4. What is the avarage age of the survey takers?
    5. What is the most their favourite programming language?
-   6. How difficult was it to break into the data field (ranked from "easy", "difficult", "Very difficult", "neither easy nor difficult"?
-   7. How satisfied are they with their salaries (ranked from 0 to 10)?
+   6. How difficult was it to break into the data field (ranked from "ea
+   7. What is the average salary per gender?
    8. How happy are they with their Work-life balance (ranked from 0 to 10)?
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
