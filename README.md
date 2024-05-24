@@ -148,8 +148,8 @@ Below are some steps that were taken in order work on the issues mentioned [here
      
 
 # Visualization
-
-   
+![the_dashboard](assets/images/the_dashboard.gif)
+  
     
       
 
