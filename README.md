@@ -147,10 +147,9 @@ Below are some steps that were taken in order work on the issues mentioned [here
      ![splitting_countries_column5](assets/images/split_countries.png)
      
 
-# DAX measures
-
 # Visualization
-      
+
+ ![the_dashboard](assets/images/the_dashbord.gif)    
     
       
 
