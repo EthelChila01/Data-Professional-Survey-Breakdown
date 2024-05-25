@@ -50,7 +50,7 @@ The Social Media Department conducted a survey on Twitter, Instagram, Facebook, 
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
    1. How many people took part in the survey?
    2. Which countries took part in the survey?
-   3. What are their average salaries respective of their jobtitles
+   3. What are the average salaries corresponding to their respective job titles?
    4. What is the avarage age of the survey takers?
    5. What is the most their favourite programming language?
    6. How difficult was it to break into the data field (ranked from "ea
@@ -159,11 +159,11 @@ Below are some steps that were taken in order work on the issues mentioned [here
    
    1.  How many people took part in the survey
    2.  Which countries took part in the survey
-   3.  What are their average salaries respective of their job titles
+   3.  What are the average salaries corresponding to their respective job titles?
    4.  What is the average age of the survey takers
    5.  What is their most favourite programing language
    6.  What is the average salary for each gender
-   7.  How happy are they with their salries
+   7.  How happy are they with their salries(ranked from 0 to 10)?
    8.  How happy are they with their Work-life balance (ranked from 0 to 10)?
 
 
@@ -172,7 +172,7 @@ Below are some steps that were taken in order work on the issues mentioned [here
 ## 1. How many people took part in the survey
    *   360
     
-## 1.  Which countries took part in the survey  
+## 2.  Which countries took part in the survey  
 Country        | Number of survey takers  |
 ---------------| -------------------------|
 United States  | 261                      | 
@@ -181,9 +181,38 @@ India          | 73                       |
 United Kingdom | 40                       |
 Canada         | 32                       |
 
+## 3.  What are the average salaries corresponding to their respective job titles?
 
+Job title         | Average salary(K)(yearly)   |
+------------------| ----------------------------|
+Data Scientist    | 94                          | 
+Data Engineer     | 65                          |
+Data Architect    | 64                          |
+Other             | 60                          |
+Data Analyst      | 55                          |
+Database Developer| 33                          |
+Stuedent/Looking  | 26                          |
 
+## 4. What is the average age of the survey takers?
 
+   *  30
+
+## 5.  What is their most favourite programing language?
+
+   *  Python
+
+## 6.  What is the average salary for each gender? 
+
+Gender | Average salary(K)(yearly)   |
+-------| ----------------------------|
+Male   | 54                          | 
+Female | 55                          |
+
+## 7. How happy are they with their salries (ranked from 0 to 10)?
+   *  4.27
+
+## 8.  How happy are they with their Work-life balance (ranked from 0 to 10)?
+   *   5.74
 
       
                                           
