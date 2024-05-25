@@ -156,7 +156,7 @@ Below are some steps that were taken in order work on the issues mentioned [here
   
  # Analysis
  ### Findings
-    *   What did we find?
+    *  What did we find?
  For this analysis, we're going to focus on the questions below to get the information we need for the human resource team
  Here are the key questions we need to answer for our human resource team: 
    
