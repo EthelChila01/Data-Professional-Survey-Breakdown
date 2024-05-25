@@ -16,6 +16,9 @@ This project was developed using raw data collected from social meadia following
   - [Data_cleaning](#data_cleaning)
 - [DAX_meausres](#dax_measures)
 - [Visualization](#visualization)
+- [Analysis](#analysis)
+- [Recommendation](#recommendation)
+- [Conclusion](#conclusion)
  
 # Objective:
 
@@ -213,8 +216,22 @@ Female | 55                          |
 
 ## 8.  How happy are they with their Work-life balance (ranked from 0 to 10)?
    *   5.74
+# Recommendations
+   *  What do you recommend based on the insights gathered?
+   1.  **Focus on Key Markets:** Given the high participation from the United States, tailor recruitment and retention strategies specifically for this region.
+   2.  **Enhance Compensation for High-Value Roles:** Consider revising compensation packages for Data Scientists to retain top talent.
+   3.  **Career Development Programs:** Develop programs focused on growth and skill development, particularly for younger employees.
+   4.  **Promote Python Proficiency:** Offer training in Python to align with the preferred programming language and improve job satisfaction.
+   5.  **Maintain Gender Salary Parity:** Continue monitoring and adjusting salaries to ensure ongoing parity.
+   6.  **Improve Compensation Satisfaction:** Reassess and enhance compensation packages to address low salary satisfaction.
+   7.  **Work-life Balance Initiatives:** Implement policies that promote a better work-life balance to increase overall employee satisfaction.
 
-      
+# Conclusion
+Based on our analysis, we have identified key insights into the demographics and satisfaction levels of data professionals. The majority of respondents are from the United States, emphasizing the need for US-focused HR strategies. Data Scientists command the highest salaries, indicating a priority on retaining these high-value employees. The workforce is relatively young, with Python as the preferred programming language, highlighting the importance of career development programs and technical training.
+
+Respondents from other countries, such as India, the United Kingdom, and Canada, also provide valuable insights. While the sample sizes from these countries are smaller, they suggest a diverse and global workforce. Tailoring HR strategies to address regional differences in compensation, professional development, and work-life balance can further enhance employee satisfaction and retention internationally.
+
+While gender salary parity is largely achieved, there is a need to improve satisfaction with compensation and work-life balance across all regions. Implementing targeted strategies based on these findings will enhance recruitment, retention, and overall employee satisfaction both in the US and globally.
                                           
                                                                                                                                                                                       
 
@@ -223,9 +240,6 @@ Female | 55                          |
 
 
                                                                      
-
-Write the documentation + commentary
-Publish the data to GitHub Pages
 
 
 
