@@ -48,8 +48,8 @@ The Social Media Department conducted a survey on Twitter, Instagram, Facebook, 
 # Design
    *  Dashboard components required
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
-   1. Which countries took part in the survey?
-   2. How many people took part in the survey?
+   1. How many people took part in the survey?
+   2. Which countries took part in the survey?
    3. What are their average salaries respective of their jobtitles
    4. What is the avarage age of the survey takers?
    5. What is the most their favourite programming language?
@@ -157,16 +157,29 @@ Below are some steps that were taken in order work on the issues mentioned [here
  For this analysis, we're going to focus on the questions below to get the information we need for the human resource team
  Here are the key questions we need to answer for our human resource team: 
    
-   1.  Which countries took part in the survey
-   2.  How many people took part in the survey
+   1.  How many people took part in the survey
+   2.  Which countries took part in the survey
    3.  What are their average salaries respective of their job titles
    4.  What is the average age of the survey takers
    5.  What is their most favourite programing language
    6.  What is the average salary for each gender
    7.  How happy are they with their salries
    8.  How happy are they with their Work-life balance (ranked from 0 to 10)?
+
+
+
+
+## 1. How many people took part in the survey
+   *   360
     
 ## 1.  Which countries took part in the survey  
+Country        | Number of survey takers  |
+---------------| -------------------------|
+United States  | 261                      | 
+Other          | 224                      |
+India          | 73                       |
+United Kingdom | 40                       |
+Canada         | 32                       |
 
 
 
