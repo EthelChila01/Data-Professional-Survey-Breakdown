@@ -148,6 +148,7 @@ Below are some steps that were taken in order work on the issues mentioned [here
      
 
 # Visualization
+![dashboard](assets/images/the_dashboard_white.gif)
 
   
  # Analysis
